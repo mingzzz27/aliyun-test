@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/docs',
   title: "服务端 测试 ",
   description: "用来测试服务端静态地址",
   themeConfig: {
